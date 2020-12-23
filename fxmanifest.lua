@@ -1,4 +1,5 @@
-resource_manifest_version '44febabe-d386-4d18-afbe-5e627f4af937'
+fx_version 'bodacious'
+game 'gta5'
 
 name '8Bit Phone'
 description 'Custom Phone Written For 8Bit RP'
@@ -26,7 +27,7 @@ files {
     'ui/imgs/*.png',
 }
 
-client_script {
+client_scripts {
     'config/*.lua',
     'client/main.lua',
     'client/items.lua',
@@ -34,7 +35,7 @@ client_script {
 	'client/apps/*.lua',
 }
 
-server_script {
+server_scripts {
     '@mysql-async/lib/MySQL.lua',
     'config/*.lua',
     'server/main.lua',
